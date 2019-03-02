@@ -1,0 +1,55 @@
+:root {
+  --theme: #111bee;
+  --whitish: #f8f8f8;
+  --blackish: #181818;
+  --fonts: "YakuHanJP", "Roboto", "Noto Sans JP", sans-serif;
+  --fonts-mono: "Roboto Mono", "Noto Sans JP", monospace;
+  --fonts-serif: "YakuHanMP", "Playfair Display", "Noto Serif JP", serif;
+  --font-size-1: 8px;
+  --font-size-2: 12px;
+  --font-size-3: 16px;
+  --font-size-4: 24px;
+  --font-size-5: 32px;
+  --font-size-6: 40px;
+  --font-size-7: 48px;
+  --font-size-8: 56px;
+  --font-size-9: 64px;
+  --font-size-impact: var(--font-size-9);
+  --font-size-title: var(--font-size-5);
+  --font-size-text: var(--font-size-3);
+  --page-margin: 32px;
+}
+
+@media screen and (max-width: 800px) {
+  :root {
+    --font-size-impact: var(--font-size-7);
+    --page-margin: 16px;
+  }
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow-scrolling: touch;
+  -webkit-overflow-scrolling: touch;
+}
+
+html {
+  word-break: break-word;
+  text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+img {
+  vertical-align: bottom;
+}
+
