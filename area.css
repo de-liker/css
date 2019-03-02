@@ -1,0 +1,30 @@
+.divi-shadow {
+  --_divi-shadow-color: rgba(0, 0, 0, .09);
+
+  border-radius: 4px;
+  box-shadow: var(--_divi-shadow-color) 0 8px 32px;
+  display: inline-block;
+  padding: 32px var(--page-margin);
+  margin-bottom: 32px;
+}
+
+.divi-line {
+  --_divi-line-color: rgb(216, 216, 216);
+
+  border: var(--_divi-line-color) 1px solid;
+  border-radius: var(--page-margin);
+  display: inline-flex;
+  flex-direction: column;
+  padding: 32px var(--page-margin);
+}
+
+.divi-line .divi-line {
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+  border-radius: 0;
+  margin-top: 32px;
+  margin-left: calc(-1 * var(--page-margin));
+  margin-right: calc(-1 * var(--page-margin));
+  padding-bottom: 0;
+}
