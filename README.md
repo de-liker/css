@@ -1,7 +1,14 @@
-# pkg `css for dR`
+# pkg `css for dR` (v1)
 
 A general css repository for de-liKeR for the purpose of rapid dev.  
 This is especially aiming to be the base of document system, not web applications.
+
+## Usage
+
+`g.css`: [https://v1.css.dr-0x.com/g.css](https://v1.css.dr-0x.com/g.css)  
+`area.css`: [https://v1.css.dr-0x.com/area.css](https://v1.css.dr-0x.com/area.css)  
+`text.css`: [https://v1.css.dr-0x.com/text.css](https://v1.css.dr-0x.com/text.css)
+
 
 ## Design Concept
 
