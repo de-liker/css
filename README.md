@@ -1,6 +1,6 @@
-# pkg `css for dR` (v2)
+# pkg `css for DE LIKER` (v2)
 
-A general css repository for de-liKeR for the purpose of rapid dev.  
+A general css repository for DE LIKER for the purpose of rapid dev.  
 This is especially aiming to be the base of document system, not web applications.
 
 ## Usage
