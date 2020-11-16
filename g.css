@@ -1,14 +1,14 @@
 :root {
   --theme: #8ab7ff;
   --theme-rgb: 138, 183, 255;
-  --whitish: #f2f7ff;
-  --whitish-rgb: 242, 247, 255;
-  --whitish-basis: #ddebff;
-  --whitish-basis-rgb: 221, 235, 255;
-  --blackish: #000814;
-  --blackish-rgb: 0, 8, 20;
-  --blackish-basis: #001433;
-  --blackish-basis-rgb: 0, 20, 51;
+  --whitish: #ddebff;
+  --whitish-rgb: 221, 235, 255;
+  --whitish-basis: #f2f7ff;
+  --whitish-basis-rgb: 242, 247, 255;
+  --blackish: #001433;
+  --blackish-rgb: 0, 20, 51;
+  --blackish-basis: #000814;
+  --blackish-basis-rgb: 0, 8, 20;
   --color: var(--blackish);
   --bg: var(--whitish);
   --basis: var(--whitish-basis);
