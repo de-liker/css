@@ -9,7 +9,7 @@
   --blackish-rgb: 0, 20, 51;
   --blackish-basis: #000814;
   --blackish-basis-rgb: 0, 8, 20;
-  --color: var(--blackish);
+  --color: var(--blackish-basis);
   --bg: var(--whitish);
   --basis: var(--whitish-basis);
   --fonts: "YakuHanJP", "Inter", "Inter var", "Noto Sans JP", sans-serif;
@@ -40,7 +40,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --color: var(--whitish);
+    --color: var(--whitish-basis);
     --bg: var(--blackish);
     --basis: var(--blackish-basis);
   }
